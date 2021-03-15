@@ -1,0 +1,72 @@
+*{
+  margin: 0rem;
+  padding: 0rem;
+}
+
+
+.navbar_container {
+      background-color: #232839;
+      /* background-color: #1c2135; */
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-items: center;
+      justify-content: center;
+      color: #d4ffe4;
+}
+
+.abhedya_logo_container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.navlogo {
+  margin-left: 5.5rem;
+  margin-right: 0.5rem;
+}
+
+.abhedya_logo_txt {
+  font-size: 1.5rem;
+}
+
+.threebar {
+  color: #d4ffe4;
+  float: right;
+}
+
+
+.navbar_links {
+  line-height: 5rem;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  color: #d4ffe4;
+}
+
+.navbar_links:hover {
+  color: #d4ffe4;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .navlogo {
+    margin-left: 0rem;
+    float: left;
+    height: 2rem;
+    width: auto;
+  }
+  .abhedya_logo_container {
+    padding: 2rem;
+  }
+
+} 
+
+
+
+ @media only screen and (max-width: 1024px) {
+  .navbar_container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+  }
+
+}

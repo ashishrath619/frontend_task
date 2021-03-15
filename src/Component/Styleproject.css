@@ -1,0 +1,187 @@
+.footercss{
+    background: #0e102c;
+    overflow: hidden;
+}
+.footercss  ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5;
+
+}
+.particlescss{
+background-color: #0e102c;
+}
+
+.footercss ul li a{
+    padding: 5;
+    /* margin: 1rem; */
+    padding-bottom: 2.5rem;
+    text-decoration: none;
+
+    color: #cfcfcf;
+
+}
+
+a{
+    /* padding: 5; */
+    font-family: "Montserrat", sans-serif;
+    color: #cfcfcf;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform:capitalize
+}
+.graphics_design_heading{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+    color: #dff9fb;
+    padding-top: 85px;
+}
+.container_graphics{
+    padding:4rem 6rem;
+
+
+    }
+    .container_graphicstext{
+        font-family: 'Montserrat', sans-serif;
+    padding:6rem 4.5rem 6rem 0rem;
+        text-align: left;
+               font-weight: 500;
+            font-size: 1.2rem; }
+.sendmsginput{
+    padding: 4rem ;
+}
+.btnsubmit{
+    border: none;
+    float:right;
+    padding: 1rem 3rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    background-color: #0e102c;
+    color: #dff9fb;
+
+}
+.send_a_message_btn{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    padding: 11rem 1rem 0rem 40%;
+    float: left;
+    text-align: left;
+}
+
+.ourproject{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-weight: 450;
+    padding: 5rem 1rem 5rem 40%;
+    color: #dff9fb;
+    float: left;
+    text-align: left;
+}
+
+.msgContainer{
+    background: linear-gradient(#e6dddd,#b3ffe0);
+
+}
+
+.slider_media{
+    background-color: #1c2135;
+    padding-bottom: 80px;
+    padding-left: 50px;
+}
+.Slder_Container{
+    background-color: #1c2135;
+     padding-left: 5%;
+
+}
+@media only screen and  (max-width: 768px) {
+    .Slder_Container{
+        background-color: #1c2135;
+         padding-left: 0%;
+         padding-right: 15%;
+
+    
+    }
+}
+@media only screen and  (max-width: 760px) {
+ 
+        .ourproject{
+            /* padding: 2.5rem 1rem 2.5rem -25%; */
+            position: relative;
+            right: 45px;
+
+        
+        
+           }  
+      
+    .slider_media{
+        padding-bottom: 2rem;
+        padding-left:0rem;
+        padding-right: 2rem;
+    }
+    .Slder_Container{
+        padding-left: 0rem;
+    }
+    .ourproject_heading{
+        margin-left: -3rem;
+    }
+}
+@media only screen and  (max-width: 768px) {
+
+.container_graphicstext{
+    font-family: 'Montserrat', sans-serif;
+        text-align: center;
+               font-weight: 500;
+            font-size: 1rem;
+            padding:0rem 1rem;
+            margin: 0%;
+}
+.container_graphics{   
+    padding:1rem 2rem;
+
+}
+.graphics_design_heading{
+    padding: 0%;
+    text-align: center;
+
+}
+.Slder_Container{
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+.slider_media{
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+.sliderimage{
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+.howdoeswe{
+    padding-bottom: .8rem;
+}
+.ourproject{
+    padding: 2.5rem 1rem 2.5rem 40%;
+
+}
+.slider_media{
+    padding-bottom: 2rem;
+    padding-left:3.5rem;
+    padding-right:0rem;
+
+}
+.send_a_message_btn{
+    padding: 2rem 1rem 0rem 30%;
+
+}
+.sendmsginput{
+   padding: 1.5rem 2rem;
+}
+.btnsubmit{
+margin-bottom: 2rem;
+}
+}

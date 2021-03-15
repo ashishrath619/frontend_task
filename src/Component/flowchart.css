@@ -1,0 +1,153 @@
+.flowchart{
+    /* display: grid; 
+    grid-template-columns: 47% 5% 47%;
+    margin: 4rem; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.Mesage_box{
+    position: relative;
+    background-color: #0e102c;
+    color: #dedede;
+    height: 12rem;
+    width: 20rem;
+    /* margin-left: 10rem; */
+   padding: .8rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+}
+.message_box_end{
+    position: absolute;
+    top: -0.1rem;
+    right: -1.8rem;
+    background-color: #0e102c;
+
+    /* border: 1px solid red; */
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 55%;
+}
+
+.flowchart_pole{
+    border-right: 4px solid #0e102c;
+    width: 1rem;
+    margin-right: 2rem;
+    border-left: 4px solid #0e0e0e;
+
+}
+.Mesage_box_two{
+    position: relative;
+    background-color: #0e102c;
+    color: #dedede;
+    height: 12rem;
+    width: 20rem;
+    padding: .8rem;
+    text-align: center;
+
+}
+
+.message_box_endtwo{
+    position: absolute;
+    top: -0.1rem;
+    left: -1.8rem;
+    background-color: #0e102c;
+
+    /* border: 1px solid red; */
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 55%;
+}
+.msgbox_one{
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 0.5rem;
+    text-transform:capitalize;
+margin: 0rem 3rem 0rem 0rem;
+}
+.msgbox_two{
+    margin-top: 16rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 0.5rem;
+    text-transform:capitalize;
+}
+.heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.flowcontainer{
+    background: linear-gradient(#e6dddd,#b3ffe0);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+.long_txt{
+    line-height: 3rem;
+}
+.pole_end{
+    border-bottom: 4px solid #0e102c;
+}
+.start_pole{
+    border-top: 4px solid #0e102c;
+
+}
+
+@media only screen and (max-width: 760px) {
+
+    .flowchart {
+        display: unset;
+        display: grid;
+        grid-template-columns: 45% 10% 45%;
+        margin:0rem 2rem;
+        grid-gap: 1rem;
+    }
+   .Mesage_box{
+       width: 87%;
+       height: auto;
+   }
+   .Mesage_box_two{
+    width: 95%;
+    height: auto;
+    margin-right: 0rem;
+   }
+   .msgbox_one {
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0rem ;
+}
+.msgbox_two{
+    margin-top: 16rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 0.5rem;
+    
+}
+.long_txt{
+    line-height: unset;
+}
+.flowcontainer{
+    padding-top: 1.7rem;
+}
+.heading{
+    margin-bottom: 1.5rem;
+}
+
+}
